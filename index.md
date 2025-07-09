@@ -21,7 +21,7 @@ title: Jason Zhang | Data Science and Software Development Portfolio
 
 ## <a id="about"></a>👨‍💻 About Me
 
-<!-- ![Profile Picture](assets/images/profile.jpg) -->
+<!-- ![Profile Picture](assets/images/profile.jpeg) -->
 Hi, I'm Jason, an ambitious **Data Scientist and Software Developer** passionate about leveraging technology to solve complex business problems. 
 
 I have operationalized **LLM RAG** applications, built **scalable data pipelines**, and **deployed ML/software solutions** across my experiences at U.S. DOT, Wolters Kluwer, and MORSE Corp. My expertise spans **data science, data engineering, machine learning, and software development**. 
