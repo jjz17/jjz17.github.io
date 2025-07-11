@@ -42,7 +42,9 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
     </div>
     <div class="card-back">
     <ul>
-        <li>In progress.</li>
+        <li>Processed over 3,200 sales, generating $20K+ in revenue while maintaining a strong profit margin through strategic sourcing and cost control.</li>
+        <li>Developed and maintained accurate inventory and pricing data, ensuring smooth operations and timely order fulfillment.</li>
+        <li>Conducted market and competitor analysis to optimize product selection and pricing strategy, improving sales velocity and customer retention.</li>
     </ul>
     </div>
   </div>
@@ -57,7 +59,9 @@ I am excited to bring forth my analytical mindset, collaborative spirit, and pro
     </div>
     <div class="card-back">
     <ul>
-        <li>In progress.</li>
+        <li>Assisted students with inquiries about class locations, meetings, and events, providing clear directions and support.</li>
+        <li>Managed calls on student, parent, and staff concerns, resolving issues with professionalism and confidentiality.</li>
+        <li>Organized student documentation, promoting efficient data management and effective office operations.</li>
     </ul>
     </div>
   </div>
