@@ -12,7 +12,7 @@
   },
 
   "social": {
-    "linkedin": "https://linkedin.com/in/jasonzhang",
+    "linkedin": "https://linkedin.com/in/jasonjzhang1",
     "github": "https://github.com/jjz17",
     "email": "jasonjzhang17@gmail.com",
     "scholar": "https://scholar.google.com/citations?user=XXXXXXX"
@@ -23,19 +23,25 @@
       "dates": "2025 — Present",
       "role": "Data Scientist",
       "company": "Verizon",
-      "description": "Led a team of 5 to build a real-time churn-prediction engine that reduced customer attrition by 18%. Designed and deployed ML pipelines processing 2M+ events/day on AWS SageMaker."
+      "description": "Developed a real-time churn-prediction engine with a team of 4 that reduced customer attrition by 18%. Conducted breakeven analyses across risk segments, uncovering multimillion-dollar margin opportunities."
     },
     {
       "dates": "2024 — 2025",
       "role": "Data Scientist",
       "company": "USDOT Volpe Center",
-      "description": "Built NLP models for sentiment analysis across 50K+ daily social-media posts, driving a 25% improvement in campaign targeting for a Fortune 500 client."
+      "description": "Deployed RAG applications for internal documentation, driving a 30% increase in information retrieval efficiency."
     },
     {
       "dates": "2023 — 2024",
       "role": "Software Engineer Co-op",
       "company": "Wolters Kluwer",
-      "description": "Created interactive Tableau dashboards used by C-suite to monitor KPIs. Automated 12 weekly reports, saving ~20 hours/month of manual work."
+      "description": "Architected RESTful microservice for translation of medical content, enabling processing of 100K+ medical documents daily."
+    },
+    {
+      "dates": "2022 — 2023",
+      "role": "Data Science Co-op",
+      "company": "MORSE Corp",
+      "description": "Architected RESTful microservice for translation of medical content, enabling processing of 100K+ medical documents daily."
     }
   ],
 
@@ -44,13 +50,13 @@
       "degree": "M.S. Bioinformatics",
       "institution": "Northeastern University",
       "year": "2026",
-      "detail": "Thesis: \"Graph Neural Networks for Fraud Detection in Financial Networks\""
+      "detail": "Focus in Cloud Computing & Biotech Industry"
     },
     {
       "degree": "B.S. Data Science & Mathematics",
       "institution": "Northeastern University",
       "year": "2024",
-      "detail": "Minor in Computer Science · Summa Cum Laude"
+      "detail": "Machine Learning Specialization · Summa Cum Laude"
     }
   ],
 

@@ -1,4 +1,4 @@
-# 📊 Jane Doe — Data Scientist Portfolio
+# 📊 Jason Zhang — Data Scientist Portfolio
 
 > A minimalist, high-end single-page portfolio powered by a **JSON data layer**.  
 > **Zero build steps.** Just HTML + CDN. Edit one JSON file to update everything.
@@ -70,7 +70,7 @@ Separating content from presentation means:
 │   └── portfolio.json      # ★ ALL editable content lives here
 ├── README.md               # You are here
 └── assets/                 # (Optional) CV PDF, images, etc.
-    └── Jane_Doe_CV.pdf
+    └── Jason_Zhang_CV.pdf
 ```
 
 ---
