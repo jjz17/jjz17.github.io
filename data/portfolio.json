@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "name": "Jason Zhang",
+    "initials": "JZ",
+    "title": "Data Scientist & Analyst",
+    "taglineBefore": "Turning",
+    "taglineHighlight1": "chaotic data",
+    "taglineMiddle": "into",
+    "taglineHighlight2": "elegant narratives",
+    "cvPath": "/assets/Jason_Zhang_CV.pdf",
+    "footer": "Built with Tailwind CSS, Alpine.js & Lucide Icons. Hosted on GitHub Pages."
+  },
+
+  "social": {
+    "linkedin": "https://linkedin.com/in/jasonzhang",
+    "github": "https://github.com/jasonzhang",
+    "email": "jason.zhang@email.com",
+    "scholar": "https://scholar.google.com/citations?user=XXXXXXX"
+  },
+
+  "experience": [
+    {
+      "dates": "2023 — Present",
+      "role": "Senior Data Scientist",
+      "company": "Acme Analytics Inc.",
+      "description": "Led a team of 5 to build a real-time churn-prediction engine that reduced customer attrition by 18%. Designed and deployed ML pipelines processing 2M+ events/day on AWS SageMaker."
+    },
+    {
+      "dates": "2020 — 2023",
+      "role": "Data Scientist",
+      "company": "DataForge Ltd.",
+      "description": "Built NLP models for sentiment analysis across 50K+ daily social-media posts, driving a 25% improvement in campaign targeting for a Fortune 500 client."
+    },
+    {
+      "dates": "2018 — 2020",
+      "role": "Junior Data Analyst",
+      "company": "Insight Partners",
+      "description": "Created interactive Tableau dashboards used by C-suite to monitor KPIs. Automated 12 weekly reports, saving ~20 hours/month of manual work."
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "M.Sc. Data Science",
+      "institution": "Stanford University",
+      "year": "2018",
+      "detail": "Thesis: \"Graph Neural Networks for Fraud Detection in Financial Networks\""
+    },
+    {
+      "degree": "B.Sc. Mathematics & Statistics",
+      "institution": "University of California, Berkeley",
+      "year": "2016",
+      "detail": "Minor in Computer Science · Magna Cum Laude"
+    }
+  ],
+
+  "projects": [
+    {
+      "icon": "bar-chart-3",
+      "title": "Churn Predictor",
+      "impact": "↓ 18% customer attrition",
+      "description": "Real-time ML pipeline on AWS SageMaker that predicts at-risk subscribers and triggers automated retention campaigns.",
+      "tools": ["Python", "XGBoost", "SageMaker"],
+      "github": "https://github.com/janedoe/churn-predictor"
+    },
+    {
+      "icon": "message-square-text",
+      "title": "Sentiment Radar",
+      "impact": "↑ 25% campaign ROI",
+      "description": "NLP engine analysing 50K+ social posts/day. Powers a live dashboard used by marketing teams to adjust spend in real time.",
+      "tools": ["BERT", "FastAPI", "Docker"],
+      "github": "https://github.com/janedoe/sentiment-radar"
+    },
+    {
+      "icon": "network",
+      "title": "Fraud Graph",
+      "impact": "$4.2M fraud prevented (Q1)",
+      "description": "Graph Neural Network that maps transactional relationships to detect fraud rings, deployed as a microservice with sub-200ms latency.",
+      "tools": ["PyTorch", "Neo4j", "Kubernetes"],
+      "github": "https://github.com/janedoe/fraud-graph"
+    },
+    {
+      "icon": "map-pin",
+      "title": "Supply Route Optimizer",
+      "impact": "↓ 12% logistics cost",
+      "description": "Combinatorial optimization model that re-routes a fleet of 300+ trucks nightly, saving $1.6M annually in fuel and labour.",
+      "tools": ["OR-Tools", "Python", "GCP"],
+      "github": "https://github.com/janedoe/supply-optimizer"
+    },
+    {
+      "icon": "eye",
+      "title": "Medical Image Classifier",
+      "impact": "97.3% accuracy on validation",
+      "description": "CNN-based classifier that detects early-stage diabetic retinopathy from retinal fundus images, cutting radiologist review time by 40%.",
+      "tools": ["TensorFlow", "Keras", "OpenCV"],
+      "github": "https://github.com/janedoe/retina-classifier"
+    },
+    {
+      "icon": "bot",
+      "title": "LLM Knowledge Base",
+      "impact": "↓ 60% support ticket volume",
+      "description": "RAG-powered chatbot over internal documentation, enabling 500+ employees to self-serve answers with cited sources.",
+      "tools": ["LangChain", "Pinecone", "OpenAI"],
+      "github": "https://github.com/janedoe/llm-knowledge-base"
+    }
+  ],
+
+  "stack": [
+    {
+      "category": "Modeling & ML",
+      "skills": ["Scikit-learn", "XGBoost / LightGBM", "PyTorch", "TensorFlow / Keras", "Hugging Face", "LangChain", "spaCy / NLTK", "Statsmodels"]
+    },
+    {
+      "category": "Data Engineering",
+      "skills": ["SQL / PostgreSQL", "Apache Spark", "Airflow", "dbt", "Kafka", "BigQuery", "Snowflake"]
+    },
+    {
+      "category": "Tools & Infrastructure",
+      "skills": ["Python", "R", "Git / GitHub", "Docker", "Kubernetes", "AWS / GCP", "MLflow", "Tableau / Plotly", "Jupyter"]
+    }
+  ],
+
+  "publications": [
+    {
+      "type": "paper",
+      "title": "Graph Neural Networks for Temporal Fraud Detection in Large-Scale Payment Networks",
+      "venue": "NeurIPS 2025 — Spotlight",
+      "year": "2025",
+      "link": "https://arxiv.org/abs/0000.00000",
+      "tldr": "Novel GNN architecture achieving SOTA on temporal fraud graphs with 3× faster inference."
+    },
+    {
+      "type": "paper",
+      "title": "Practical Approaches to Distribution Shift in Production ML Pipelines",
+      "venue": "ICML 2024 — Workshop on Deployable ML",
+      "year": "2024",
+      "link": "https://arxiv.org/abs/0000.00001",
+      "tldr": "A lightweight drift-detection framework validated across 12 production systems."
+    },
+    {
+      "type": "talk",
+      "title": "From Jupyter to Production: Lessons from Deploying 7 Models at Scale",
+      "venue": "PyData Global 2024",
+      "year": "2024",
+      "link": "https://youtube.com/watch?v=example",
+      "tldr": "War stories and patterns for bridging the notebook-to-production gap."
+    },
+    {
+      "type": "paper",
+      "title": "Causal Inference for A/B Testing Under Network Interference",
+      "venue": "KDD 2023",
+      "year": "2023",
+      "link": "https://arxiv.org/abs/0000.00002",
+      "tldr": "Correcting treatment-effect estimates when users influence each other's outcomes."
+    },
+    {
+      "type": "talk",
+      "title": "Building a Feature Store from Scratch on a Startup Budget",
+      "venue": "MLOps Community Meetup",
+      "year": "2023",
+      "link": "https://youtube.com/watch?v=example2",
+      "tldr": "How we replaced a $200K vendor with open-source tooling in 6 weeks."
+    }
+  ],
+
+  "methodology": [
+    {
+      "step": "Frame",
+      "icon": "target",
+      "label": "Problem Framing",
+      "detail": "Translate business questions into measurable hypotheses and success metrics before touching any data."
+    },
+    {
+      "step": "Explore",
+      "icon": "search",
+      "label": "Data Exploration",
+      "detail": "Profile, clean, and understand the data landscape — distributions, missingness, and biases."
+    },
+    {
+      "step": "Model",
+      "icon": "cpu",
+      "label": "Modeling & Experimentation",
+      "detail": "Iterate fast with baselines first. Use experiment tracking (MLflow) and rigorous cross-validation."
+    },
+    {
+      "step": "Deploy",
+      "icon": "rocket",
+      "label": "Productionisation",
+      "detail": "Containerise, CI/CD, and deploy behind feature flags. Every model ships with a rollback plan."
+    },
+    {
+      "step": "Monitor",
+      "icon": "activity",
+      "label": "Monitoring & Feedback",
+      "detail": "Track data drift, model degradation, and business KPIs. Close the loop with automated retraining triggers."
+    }
+  ],
+
+  "reading": {
+    "title": "Designing Machine Learning Systems",
+    "author": "Chip Huyen",
+    "publisher": "O'Reilly, 2022",
+    "progress": 65
+  },
+
+  "metrics": [
+    { "value": "7", "label": "Models in Production" },
+    { "value": "2.4M", "label": "Daily Predictions" },
+    { "value": "14", "label": "Papers Read (2026)" }
+  ],
+
+  "githubActivity": {
+    "description": "Contributions in the last 16 weeks",
+    "weeks": [
+      [0,2,3,1,4,2,0],
+      [1,3,4,2,5,3,1],
+      [2,1,0,3,2,4,0],
+      [0,4,5,3,2,1,2],
+      [3,2,1,4,5,3,0],
+      [1,0,3,2,4,5,1],
+      [2,3,4,1,0,2,3],
+      [0,1,5,4,3,2,0],
+      [4,3,2,1,5,4,2],
+      [1,2,0,3,4,1,0],
+      [3,5,4,2,1,3,2],
+      [0,1,2,4,5,3,1],
+      [2,4,3,1,0,2,4],
+      [1,3,5,4,2,0,1],
+      [3,2,1,5,4,3,2],
+      [0,4,3,2,1,5,0]
+    ]
+  }
+}
