@@ -13,44 +13,44 @@
 
   "social": {
     "linkedin": "https://linkedin.com/in/jasonzhang",
-    "github": "https://github.com/jasonzhang",
-    "email": "jason.zhang@email.com",
+    "github": "https://github.com/jjz17",
+    "email": "jasonjzhang17@gmail.com",
     "scholar": "https://scholar.google.com/citations?user=XXXXXXX"
   },
 
   "experience": [
     {
-      "dates": "2023 — Present",
-      "role": "Senior Data Scientist",
-      "company": "Acme Analytics Inc.",
+      "dates": "2025 — Present",
+      "role": "Data Scientist",
+      "company": "Verizon",
       "description": "Led a team of 5 to build a real-time churn-prediction engine that reduced customer attrition by 18%. Designed and deployed ML pipelines processing 2M+ events/day on AWS SageMaker."
     },
     {
-      "dates": "2020 — 2023",
+      "dates": "2024 — 2025",
       "role": "Data Scientist",
-      "company": "DataForge Ltd.",
+      "company": "USDOT Volpe Center",
       "description": "Built NLP models for sentiment analysis across 50K+ daily social-media posts, driving a 25% improvement in campaign targeting for a Fortune 500 client."
     },
     {
-      "dates": "2018 — 2020",
-      "role": "Junior Data Analyst",
-      "company": "Insight Partners",
+      "dates": "2023 — 2024",
+      "role": "Software Engineer Co-op",
+      "company": "Wolters Kluwer",
       "description": "Created interactive Tableau dashboards used by C-suite to monitor KPIs. Automated 12 weekly reports, saving ~20 hours/month of manual work."
     }
   ],
 
   "education": [
     {
-      "degree": "M.Sc. Data Science",
-      "institution": "Stanford University",
-      "year": "2018",
+      "degree": "M.S. Bioinformatics",
+      "institution": "Northeastern University",
+      "year": "2026",
       "detail": "Thesis: \"Graph Neural Networks for Fraud Detection in Financial Networks\""
     },
     {
-      "degree": "B.Sc. Mathematics & Statistics",
-      "institution": "University of California, Berkeley",
-      "year": "2016",
-      "detail": "Minor in Computer Science · Magna Cum Laude"
+      "degree": "B.S. Data Science & Mathematics",
+      "institution": "Northeastern University",
+      "year": "2024",
+      "detail": "Minor in Computer Science · Summa Cum Laude"
     }
   ],
 
