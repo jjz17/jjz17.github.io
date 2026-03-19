@@ -188,7 +188,8 @@
             <button @click="mobileNav = !mobileNav"
                     class="sm:hidden p-2 rounded-full hover:bg-neutral-200 dark:hover:bg-neutral-800 transition-colors"
                     aria-label="Menu">
-              <i data-lucide="menu" class="w-5 h-5"></i>
+              <i x-show="!mobileNav" data-lucide="menu" class="w-5 h-5"></i>
+              <i x-show="mobileNav" data-lucide="x" class="w-5 h-5"></i>
             </button>
 
             <!-- Dark Mode Toggle -->
@@ -614,7 +615,7 @@
     function portfolio() {
       return {
         /* ── State ── */
-        darkMode: false,
+        darkMode: window.matchMedia('(prefers-color-scheme: dark)').matches,
         mobileNav: false,
         loaded: false,
         activeStep: null,       // Methodology: which step is expanded
@@ -622,11 +623,6 @@
 
         /* ── Lifecycle ── */
         init() {
-          // Respect OS dark mode preference on first load
-          if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            this.darkMode = true;
-          }
-
           // Fetch portfolio data from JSON
           fetch('data/portfolio.json')
             .then(r => {
