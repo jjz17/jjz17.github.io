@@ -78,11 +78,11 @@ Separating content from presentation means:
 ## 📝 Architecture: How the JSON Data Layer Works
 
 ```
-┌─────────────────────┐       fetch()        ┌──────────────────────┐
+┌─────────────────────┐       fetch()         ┌──────────────────────┐
 │                     │  ──────────────────>  │                      │
 │    index.html       │                       │  data/portfolio.json │
 │  (Alpine.js app)    │  <──────────────────  │  (all content)       │
-│                     │       JSON data        │                      │
+│                     │       JSON data       │                      │
 └─────────────────────┘                       └──────────────────────┘
          │
          ▼
