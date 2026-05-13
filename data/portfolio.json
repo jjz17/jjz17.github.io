@@ -41,7 +41,7 @@
       "dates": "2022 — 2023",
       "role": "Data Science Co-op",
       "company": "MORSE Corp",
-      "description": "Architected RESTful microservice for translation of medical content, enabling processing of 100K+ medical documents daily."
+      "description": "Developed a time series bootstrap model to estimate uncertainty in temporal data, improving predictive insights."
     }
   ],
 
@@ -86,7 +86,7 @@
       "step": "Explore",
       "icon": "search",
       "label": "Data Exploration",
-      "detail": "Profile, clean, and understand the data landscape — distributions, missingness, and biases."
+      "detail": "Profile, clean, and understand the data landscape - distributions, missingness, and biases."
     },
     {
       "step": "Model",
