@@ -176,8 +176,8 @@
           </a>          <div class="hidden sm:flex items-center gap-6 text-sm font-medium">
             <a href="#experience"   class="hover:text-accent transition-colors">Experience</a>
             <a href="#education"    class="hover:text-accent transition-colors">Education</a>
-            <a href="#projects"     class="hover:text-accent transition-colors">Projects</a>
-            <a href="#publications" class="hover:text-accent transition-colors">Research</a>
+            <!-- <a href="#projects"     class="hover:text-accent transition-colors">Projects</a> -->
+            <!-- <a href="#publications" class="hover:text-accent transition-colors">Research</a> -->
             <a href="#methodology"  class="hover:text-accent transition-colors">Process</a>
             <a href="#stack"        class="hover:text-accent transition-colors">Stack</a>
             <a href="#contact"      class="hover:text-accent transition-colors">Contact</a>
@@ -207,8 +207,8 @@
              class="sm:hidden px-6 pb-4 flex flex-col gap-3 text-sm font-medium">
           <a href="#experience"   @click="mobileNav=false" class="hover:text-accent transition-colors">Experience</a>
           <a href="#education"    @click="mobileNav=false" class="hover:text-accent transition-colors">Education</a>
-          <a href="#projects"     @click="mobileNav=false" class="hover:text-accent transition-colors">Projects</a>
-          <a href="#publications" @click="mobileNav=false" class="hover:text-accent transition-colors">Research</a>
+          <!-- <a href="#projects"     @click="mobileNav=false" class="hover:text-accent transition-colors">Projects</a> -->
+          <!-- <a href="#publications" @click="mobileNav=false" class="hover:text-accent transition-colors">Research</a> -->
           <a href="#methodology"  @click="mobileNav=false" class="hover:text-accent transition-colors">Process</a>
           <a href="#stack"        @click="mobileNav=false" class="hover:text-accent transition-colors">Stack</a>
           <a href="#contact"      @click="mobileNav=false" class="hover:text-accent transition-colors">Contact</a>
@@ -303,7 +303,7 @@
       <!-- ========================================================== -->
       <!--  SELECTED PROJECTS (JSON-driven)                            -->
       <!-- ========================================================== -->
-      <section id="projects" class="py-20 px-6">
+      <!-- <section id="projects" class="py-20 px-6">
         <div class="max-w-5xl mx-auto fade-section">
           <h2 class="font-serif text-3xl font-bold mb-4">Selected Projects</h2>
           <p class="text-neutral-500 dark:text-neutral-400 mb-12 max-w-xl">
@@ -330,14 +330,14 @@
             </template>
           </div>
         </div>
-      </section>
+      </section> -->
 
 
       <!-- ========================================================== -->
       <!--  ★ NEW FEATURE 1: PUBLICATIONS & TALKS                     -->
       <!--  Shows thought leadership — critical for DS leaders         -->
       <!-- ========================================================== -->
-      <section id="publications" class="py-20 px-6 bg-neutral-50 dark:bg-neutral-900/50">
+      <!-- <section id="publications" class="py-20 px-6 bg-neutral-50 dark:bg-neutral-900/50">
         <div class="max-w-3xl mx-auto fade-section">
           <h2 class="font-serif text-3xl font-bold mb-4">Publications & Talks</h2>
           <p class="text-neutral-500 dark:text-neutral-400 mb-10 max-w-xl">
@@ -347,9 +347,9 @@
 
           <div class="space-y-4">
             <template x-for="(pub, i) in d.publications" :key="i">
-              <div class="hover-lift relative pl-5 rounded-xl p-5 bg-white dark:bg-neutral-800/60 border border-neutral-200 dark:border-neutral-700">
+              <div class="hover-lift relative pl-5 rounded-xl p-5 bg-white dark:bg-neutral-800/60 border border-neutral-200 dark:border-neutral-700"> -->
                 <!-- Color bar: indigo for papers, emerald for talks -->
-                <div class="pub-line"
+                <!-- <div class="pub-line"
                      :class="pub.type === 'paper' ? 'bg-accent' : 'bg-emerald-500'"></div>
                 <div class="flex items-start justify-between gap-4">
                   <div class="flex-grow">
@@ -377,10 +377,10 @@
                 </div>
               </div>
             </template>
-          </div>
+          </div> -->
 
           <!-- Google Scholar link -->
-          <div class="mt-8">
+          <!-- <div class="mt-8">
             <a :href="d.social.scholar" target="_blank" rel="noopener noreferrer"
                class="inline-flex items-center gap-2 text-sm font-medium text-accent hover:text-accent-hover transition-colors">
               <i data-lucide="book-marked" class="w-4 h-4"></i>
@@ -388,7 +388,7 @@
             </a>
           </div>
         </div>
-      </section>
+      </section> -->
 
 
       <!-- ========================================================== -->
@@ -511,13 +511,13 @@
       <!--  ★ NEW FEATURE 3: GITHUB-STYLE ACTIVITY HEATMAP             -->
       <!--  Visual proof of consistency — speaks to DS leaders          -->
       <!-- ========================================================== -->
-      <section id="activity" class="py-20 px-6 bg-neutral-50 dark:bg-neutral-900/50">
+      <!-- <section id="activity" class="py-20 px-6 bg-neutral-50 dark:bg-neutral-900/50">
         <div class="max-w-3xl mx-auto fade-section">
           <h2 class="font-serif text-3xl font-bold mb-4">Activity</h2>
-          <p class="text-sm text-neutral-500 dark:text-neutral-400 mb-8" x-text="d.githubActivity.description"></p>
+          <p class="text-sm text-neutral-500 dark:text-neutral-400 mb-8" x-text="d.githubActivity.description"></p> -->
 
           <!-- Heatmap grid -->
-          <div class="overflow-x-auto pb-2">
+          <!-- <div class="overflow-x-auto pb-2">
             <div class="inline-flex gap-[3px]">
               <template x-for="(week, wi) in d.githubActivity.weeks" :key="wi">
                 <div class="flex flex-col gap-[3px]">
@@ -530,10 +530,10 @@
                 </div>
               </template>
             </div>
-          </div>
+          </div> -->
 
           <!-- Legend -->
-          <div class="flex items-center gap-2 mt-4 text-xs text-neutral-400">
+          <!-- <div class="flex items-center gap-2 mt-4 text-xs text-neutral-400">
             <span>Less</span>
             <div class="w-[13px] h-[13px] rounded-[3px] bg-neutral-200 dark:bg-neutral-800"></div>
             <div class="w-[13px] h-[13px] rounded-[3px] bg-indigo-200 dark:bg-indigo-900/60"></div>
@@ -543,7 +543,7 @@
             <span>More</span>
           </div>
         </div>
-      </section>
+      </section> -->
 
 
       <!-- ========================================================== -->
